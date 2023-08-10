@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="css/content1-styles.css">
+  
+
+<!--style.cssの前にreset.cssを読み込む -->
+
+  <title>札幌を知る</title>
+</head>
+
+
+
+<body>
+  <header>
+
+    <div class="header-flex">
+      <a href="index.html"><img class="logo-img" src="photo/ロゴ4.png"></a>
+
+          <!-- クリックする３本線の部分 -->
+<span class="nav_toggle">
+  <i></i>
+  <i></i>
+  <i></i>
+</span>
+      
+      <nav class="nav">
+        <ul class="nav_menu_ul">
+          <li class="nav_menu_li"><a href="content1.html">札幌を知る</a></li>
+          <li class="nav_menu_li"><a href="#">札幌を楽しむ</a></li>
+          <li class="nav_menu_li"><a href="#">目的から探す</a></li>
+          <li class="nav_menu_li"><a href="#">交通情報</a></li>
+          <li class="nav_menu_li"><a href="#">旅の実用情報</a></li>
+        </ul>
+    </div>
+    </nav>
+
+
+
+
+  </div>
+  </header>
+
+  <main>
+    <div class="main-flex">
+      <div class="main-title">
+        <p>札幌を知る</p>
+        <hr>
+      </div>
+      <img class="main-img" src="photo/IMG_1259.JPG">
+    </div>
+
+    <div class="explanation-main">
+      <p>札幌市は、北海道の道央地方に位置し、人口196万人、10の区から成り立つ<br>
+      北海道の行政、経済、文化の中心であり、北海道最大の都市である。</p>
+    </div>
+
+    <div class="main-content-title">
+      <p>[歴史]</p>
+    </div>
+
+    <div class="main-content-flex">
+      <div class="main-content">
+        <img class="content-img" src="photo/IMG_4817.JPG">
+        <p>旧北海道庁</p>
+      </div>
+      <div class="main-content">
+        <img class="content-img" src="photo/IMG_5537.JPG">
+        <p>すすきの交差点</p>
+      </div>
+    </div>
+    <div class="explanation-content">
+      <p>アイヌにの人たちが住んでいた蝦夷地は、明治2年に北海道と改称されて、開拓使が置かれ<br>
+      札幌本部の建設が始まりました。大正11年の市制施行以降、近隣町村との合併を繰り返し<br>
+    札幌市を拡大させていきました。</p>
+    </div>
+
+    <div class="main-content-title">
+      <p>[文化]</p>
+    </div>
+
+    <div class="main-content-flex">
+      <div class="main-content">
+        <img class="content-img" src="photo/IMG_5908.JPG">
+        <p>札幌市時計台</p>
+      </div>
+      <div class="main-content">
+        <img class="content-img" src="photo/IMG_5539.JPG">
+        <p>さっぽろテレビ塔</p>
+      </div>
+    </div>
+    <div class="explanation-content">
+      <p>札幌農学校演武場として造られた札幌市時計台、市民の憩いの場になっている大通公園を<br>
+      はじめ札幌市にはいろいろな文化があります。</p>
+    </div>
+  </main>
+  
+  <footer>
+    <div class="footer">
+      <img class="logo-img2" src="photo/ロゴ3.png">
+      <div class="footer-link-main">
+        <div class="footer-content">
+          <ul> 
+            <li><a href="content1.html">札幌を知る</a></li>
+            <li><a href="#">札幌を楽しむ</a></li>
+           <li><a href="#">目的から探す</a></li>
+            <li><a href="#">交通情報</a></li>
+            <li><a href="#">旅の実用情報</a></li>
+         </ul>
+        </div>
+        <div class="footer-link" >
+          <a href="#">運営情報</a>
+          <a href="#">利用規約</a>
+          <a href="#">プライバシーポリシー</a>
+          <a href="#">お問い合わせ</a>
+        </div> 
+      </div>
+    </div>
+  </footer>
+  
+
+  <script>
+
+$(".nav_toggle").on("click", function () {
+  $(".nav_toggle, .nav").toggleClass("show");
+});
+
+
+</script>
+
+
+</body>
+</html>
