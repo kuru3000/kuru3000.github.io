@@ -1,0 +1,167 @@
+body {
+  background-color: #ffffff;
+  color: #191970;
+  min-width :1280px;
+  }
+
+
+a{
+  text-decoration: none;
+  color: #191970
+}
+
+.logo-img{
+  height:100%;
+  width:1280px;
+  object-fit: cover;
+}
+
+.hero img{
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.hero{
+  overflow: hidden;
+}
+
+.slider img {
+	width: 100%;
+}
+
+
+.index-flex{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+
+.index-item{
+  text-align: center;
+  padding: 0 48px;
+  border-left: 2px solid silver;
+}
+
+.index-item:nth-child(5){
+  border-right: 2px solid silver;
+}
+
+.index-img{
+  width: 50px; 
+  height: 50px; 
+}
+
+.main-theme{
+  text-align: center;
+  margin: 64px;
+  font-size: 48px;
+}
+
+.news{
+  text-align: center;
+  background-color: #cab8d9;
+  padding-top: 24px;
+}
+
+.news li{
+  padding-bottom: 12px;
+  list-style: none;
+}
+
+
+.ivent-title{
+  margin: 24px;
+  border-bottom: solid 5px #cab8d9;
+  display: inline-block;
+  font-size: 34px;
+}
+
+.ivent-title-center{
+  text-align: center;
+}
+
+.ivent-flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ivent-list{
+  border: 2px solid #cab8d9;
+  padding: 24px;
+  margin:48px;
+  border-radius:10%;
+}
+
+.ivent-list img:hover {
+  opacity: 0.5 ;
+}
+
+
+.ivent-img1{
+  width: 380px; 
+  height: 430px;
+  object-fit: cover;
+}
+
+.ivent-img2{
+  width: 380px; 
+  height: 430px;
+}
+
+.button {
+  text-align:center;
+  padding:10px;
+  color:#666;
+  border: 2px solid #333;
+  width:200px;
+  margin:16px auto;
+}
+.close {
+  background:#fff;
+}
+
+
+
+.footer{
+  background-color: #cab8d9;
+  height: 340px;
+}
+
+.logo-img2{
+  width:560px; 
+  padding:0 20px;
+  float: left;
+}
+
+.footer-content{
+  padding-top: 48px;
+}
+
+.footer-content li{
+  padding: 0 12px;
+  font-size: 32px;
+  list-style:none;
+  float: left;
+}
+
+.footer-link{
+  padding-right:80px;
+  padding-top:80px;
+  list-style:none;
+  float: left;
+}
+
+.footer-link a{
+  padding :12px;
+}
+
+.footer-link li{
+  padding: 12px;
+}
+
+.footer-link-main{
+  margin: 12px;
+}
